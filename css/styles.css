@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: "Roboto";
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.status-container {
+  padding: 24px;
+}
+.status {
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 100%;
+  display: inline;
+  padding: 4px 8px;
+  border-radius: 30px;
+}
+
+.active {
+  color: #0d6832;
+  background-color: #d6f0e0;
+}
+
+.table {
+  font-family: "Roboto";
+}
+
+.row {
+  padding: 8px 12px;
+  height: 40px;
+  border-bottom: 1px solid gray;
+  /* border-bottom: gray; */
+  /* border-width: 2px; */
+  /* border-style: solid; */
+}
+p {
+  padding: 14px;
+}
+.description::first-letter {
+  color: orange;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.description::first-line {
+  font-size: 40px;
+}
+
+/* Pseudo Class */
+
+/* :hover */
+
+/* .title {
+  padding: 12px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: red;
+}
+
+.title:hover {
+  background-color: red;
+  cursor: pointer;
+} */
+
+/* .social-links .link {
+  color: teal;
+}
+
+.social-links .link:hover {
+  color: tomato;
+}
+
+.social-links .link:focus {
+  color: brown;
+}
+
+.social-links .link:visited {
+  color: yellow;
+} */
+
+/* focus, active, visited */
+
+/* Block Model */
+
+.heading-section {
+  /* width: 100vw;
+  height: 100vh; */
+  width: 390px;
+  background-color: #2a254b;
+  padding: 24px;
+  padding-top: 40px;
+  margin: 0 auto;
+  /* padding-top: 40px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 24px; */
+  /* padding: 40px 24px 24px 24px; */
+  /* padding: 24px 12px; */
+}
+
+.title {
+  margin-bottom: 80px;
+  color: white;
+}
+
+.description {
+  color: white;
+  margin-bottom: 32px;
+}
+
+.view-btn {
+  width: 100%;
+  padding: 16px 32px;
+  background-color: rgba(249, 249, 249, 0.15);
+  border: none;
+  color: white;
+}
+
+/* vh vw */
+
+/* Box Sizing */
+
+.heading-section {
+  box-sizing: content-box;
+}
+
+.about-us-section {
+  width: 675px;
+  padding: 130px 30px 140px 30px;
+}
+
+.title-comment {
+  color: rgb(126, 182, 147);
+  font-family: "Yellowtail";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 0.36px;
+}
+
+.section-title {
+  color: rgb(39, 76, 91);
+  font-family: "Roboto";
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 58.5px;
+  letter-spacing: 0.36px;
+  margin-bottom: 22px;
+}
+
+.description {
+  color: rgb(82, 92, 96);
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32.4px;
+  letter-spacing: 0.36px;
+  margin-bottom: 56px;
+}
+
+.item-title {
+  color: rgb(39, 76, 91);
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0.36px;
+  margin-bottom: 10px;
+}
+
+.item-description {
+  color: rgb(82, 92, 96);
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32.4px;
+  letter-spacing: 0.36px;
+}
+
+.list {
+  margin-bottom: 45px;
+}
+
+.shop-btn {
+  padding: 24px 32px;
+  border-radius: 16px;
+  background-color: #274c5b;
+  color: rgb(255, 255, 255);
+  font-family: "Roboto";
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.6px;
+  border: none;
+}
